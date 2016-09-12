@@ -1,3 +1,10 @@
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the smallest positive number that is evenly divisible by the numbers 1-20.
+*/
+
 import java.util.*;
 public class solver {
 	public static void main(String[] args) {
