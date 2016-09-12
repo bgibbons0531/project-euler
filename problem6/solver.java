@@ -1,3 +1,10 @@
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the difference between the sum of the squares of the first 100 natural numbers,
+* 		and the square of the sum.
+*/
 
 public class solver {
 	public static void main(String[] args) {
