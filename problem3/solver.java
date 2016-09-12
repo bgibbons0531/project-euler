@@ -1,3 +1,10 @@
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the largest prime factor of 600851475143
+*/
+
 import java.util.*;
 public class solver {
 	public static void main(String[] args) {
