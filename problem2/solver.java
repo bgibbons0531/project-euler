@@ -1,3 +1,9 @@
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of the even numbers of the Fibonacci under 4 million.
+*/
 
 public class solver {
 	public static void main(String[] args) {
