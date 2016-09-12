@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the 10,001st prime number.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
