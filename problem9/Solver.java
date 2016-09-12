@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the product a*b*c that is the Pythagorean triplet for a+b+c=1000
+*/
 
 public class Solver {
 	public static void main(String[] args) {
