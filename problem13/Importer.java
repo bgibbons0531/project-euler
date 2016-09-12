@@ -1,3 +1,10 @@
+/**
+*	@file: Importer.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Import 100 50-digit numbers into an array of strings. 
+*/
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 
