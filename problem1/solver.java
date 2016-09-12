@@ -1,4 +1,9 @@
-
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of all multiples of 3 and 5 below 1000.
+*/
 public class solver {
 	public static void main(String[] args) {
 		//Declaration
