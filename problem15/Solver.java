@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the number of paths through a 20x20 grid being able to only move down and right.
+*/
 
 public class Solver {
 	public static void main(String[] args) {
