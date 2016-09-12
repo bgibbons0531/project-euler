@@ -1,3 +1,10 @@
+/**
+*	@file: GridImporter.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Import a grid of 20x20 numbers into a 2D matrix.
+*/
+
 import java.io.*;
 public class GridImporter {
 	//Declaration
