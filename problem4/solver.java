@@ -1,3 +1,10 @@
+/**
+*	@file: solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the largest palindrome formed by a product of 3 digit numbers
+*/
+
 import java.util.*;
 public class solver {
 	public static void main(String[] args) {
