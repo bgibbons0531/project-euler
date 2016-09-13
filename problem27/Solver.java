@@ -1,3 +1,11 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the product a*b such that n^2+an+b 
+* 		produces the maximum number of prime for consecutive values of n.
+*/
+
 public class Solver {
 	public static void main(String[] args) {
 		//Declaration
