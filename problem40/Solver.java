@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: let d be the decimal formed by concatenating the positive integers. Find the value of:
+* 		d1 * d10 * ...  d1000000. where dn is the nth digit of the fractional part.
+*/
 
 public class Solver {
 	public static void main(String[] args) {
