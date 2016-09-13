@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the number of Sundays that fell on the first of the month between 1 Jan 1901 to 31 Dec 2000.
+*/
 
 public class Solver {
 	public static void main(String[] args) {
