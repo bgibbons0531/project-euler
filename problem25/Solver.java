@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the first term in the Fibonacci sequence to contain 1000 digits.
+*/
 
 import java.math.*;
 public class Solver {
