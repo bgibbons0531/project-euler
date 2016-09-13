@@ -1,3 +1,10 @@
+/**
+*	@file: Importer.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Import the triangle into a 2D array.
+*/
+
 import java.io.*;
 public class Importer {
 	//Declaration
