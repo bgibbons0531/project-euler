@@ -1,3 +1,11 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the value of d<1000 
+* 		such that 1/d contains the longest recurring cycle in its decimal fraction part.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
