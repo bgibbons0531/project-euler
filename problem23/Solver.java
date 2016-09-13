@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of all positive integers which cannot be written as the sum of two abundant numbers.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
