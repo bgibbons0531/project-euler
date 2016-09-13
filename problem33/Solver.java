@@ -1,3 +1,11 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the denominator of the product of the 4 non-trivial types of the following fraction:
+* 		49/98 = 4/8 which is improper cancelling.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
