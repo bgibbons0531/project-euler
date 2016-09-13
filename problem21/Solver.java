@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of all amicable numbers under 10,000.
+*/
+
 public class Solver {
 	public static void main(String[] args) {
 		//Declaration
