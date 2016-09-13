@@ -8,5 +8,12 @@
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
+		//Declaration
+		Importer myImporter = new Importer();
+		List<String> wordList = new ArrayList<String>();
+
+		//Get list of words
+		wordList = myImporter.getWords();
+		
 	}
 }
