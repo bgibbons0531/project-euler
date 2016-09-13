@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.
+*/
+
 public class Solver {
 	public static void main(String[] args) {
 		//Declaration
