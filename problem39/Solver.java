@@ -1,3 +1,11 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the value of p<=1000 such that the number of solutions of a right angle triangle
+* 		with integral length sides is maximized where p is the perimeter of the triangle.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
