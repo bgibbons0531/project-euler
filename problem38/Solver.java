@@ -1,3 +1,11 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product
+* 		of an integer with (1,2,...,n) where n>1.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
