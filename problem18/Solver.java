@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Find the maximum sum from top to bottom of the triangle with 15 rows.
+*/
 
 public class Solver {
 	public static void main(String[] args) {
