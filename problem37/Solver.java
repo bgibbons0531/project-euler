@@ -1,3 +1,9 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the sum of the eleven primes that are truncatable from left to right and right to left.
+*/
 
 public class Solver {
 	public static void main(String[] args) {
