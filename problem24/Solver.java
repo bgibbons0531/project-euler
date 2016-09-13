@@ -1,3 +1,10 @@
+/**
+*	@file: Solver.java
+* 	@author: Brad Gibbons
+* 	@date: 2016.09.12
+* 	Description: Calculate the millionth lexicographic permutation of the digits 0,1,2,3,4,5,6,7,8,9.
+*/
+
 import java.util.*;
 public class Solver {
 	public static void main(String[] args) {
