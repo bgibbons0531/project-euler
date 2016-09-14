@@ -21,6 +21,7 @@ public class Solver {
 		//Declaration
 		int sum = 0; //Counter to keep track of the sum
 		char[] digits = {'0','1','2','3','4','5','6','7','8','9'}; //List of digits to be used in the number
+		char[][] triplets = getTriplets(digits);
 	}
 
 	/**
@@ -29,10 +30,26 @@ public class Solver {
 	 *	@return	An array of all triplets possible for the given list
 	 */
 	private static char[][] getTriplets(char[] list) {
+		//Determine how many triplets there will be
 		int n = list.length;
 		int r = 3;
-		int numCombinations = factorial(n)/(factorial(r)*factorial(n-r));
+		int numCombinations = factorial(n)/factorial(n-r);
 		char[][] triplets = new char[numCombinations][3];
+
+		//Get triples
+		int counter = 0;
+		for (int digit1=0; digit1<list.length; digit1++) {
+			for (int digit2=0; digit2<list.length; digit2++) {
+				for (int digit3=0; digit3<list.length; digit3++) {
+					if (digit1 != digit2 && digit2 != digit3 && digit3 != digit1) {
+						triplets[counter][0] = list[digit1];
+						triplets[counter][1] = list[digit2];
+						triplets[counter][2] = list[digit3];
+						counter++;
+					}
+				}
+			}
+		}
 		return(triplets);
 	}
 
@@ -43,8 +60,10 @@ public class Solver {
 	 */
 	private static int factorial(int x) {
 		int product = 1;
-		for (int i=1; i<=x; i++) {
-			product *= x;
+		int i = 1;
+		while (i <= x) {
+			product *= i;
+			i++;
 		}
 		return(product);
 	}
