@@ -1,7 +1,7 @@
 /**
 *	@file Solver.java
 *	@author Brad Gibbons
-*	@version 1.0, 13 Sep 2016
+*	@version 1.0, 15 Sep 2016
 *	Purpose: To find the sum of all 0 through 9 pandigital numbers with the following property:
 *		d2d3d4 is divisible by 2
 *		d3d4d5 is divisible by 3
@@ -170,6 +170,13 @@ public class Solver {
 		//Print solution
 		System.out.println(sum);
 	}
+
+	/**
+	 *	Returns an array of characters given a triplet of characters to remove
+	 *	@param triplet 		An array of size 3 with three characters to removed from the inputed list of characters
+	 *	@param digits_in	A list of characters of digits that will be altered by removing the characters that appear in the triplet
+	 *	@return The modified list of digits as an array of characters
+	 */
 	private static char[] getDigits(char[] triplet, char[] digits_in) {
 		char[] digits_out = {};
 		if (digits_in.length!=10) {
@@ -189,6 +196,13 @@ public class Solver {
 		return(digits_out);
 	}
 
+	/**
+	 *	Creates a list of all triplets given the first two entries and a list to be the third entry.
+	 *	@param a 	A character to be the first entry in each triplet
+	 *	@param b 	A character to be the second entry in the each triplet
+	 *	@param list A list of character which will be the last entry in each triplet
+	 *	@return An array of triplets of digits as characters
+	 */
 	private static char[][] getTriplets(char a, char b, char[] list) {
 		int n = list.length;
 		char[][] triplets = new char[n][3];
@@ -199,6 +213,7 @@ public class Solver {
 		}
 		return (triplets);
 	}
+
 	/**
 	 *	Creates a list of all possible triplets for the given list.
 	 *	@param	list 	A list of characters.
