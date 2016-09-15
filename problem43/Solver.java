@@ -1,23 +1,26 @@
 /**
-*	@file Solver.java
-*	@author Brad Gibbons
-*	@version 1.0, 15 Sep 2016
-*	Purpose: To find the sum of all 0 through 9 pandigital numbers with the following property:
-*		d2d3d4 is divisible by 2
-*		d3d4d5 is divisible by 3
-*		d4d5d6 is divisible by 5
-*		d5d6d7 is divisible by 7
-*		d6d7d8 is divisible by 11
-*		d7d8d9 is divisible by 13
-*		d8d9d10 is divisible by 17
-*/
+ * Purpose: To find the sum of all 0 through 9 pandigital numbers with the following property:
+ *  d2d3d4 is divisible by 2
+ *  d3d4d5 is divisible by 3
+ *  d4d5d6 is divisible by 5
+ *  d5d6d7 is divisible by 7
+ *  d6d7d8 is divisible by 11
+ *  d7d8d9 is divisible by 13
+ *  d8d9d10 is divisible by 17.
+ */
 
 import java.math.*;
 import java.util.*;
+
+/**
+ * Solver object used to find the solution.
+ * @author Brad Gibbons
+ * @version 1.0, 15 Sep 2016
+ */
 public class Solver {
 	/**
-	 *	Main method to solve the problem.
-	 *	@param args 	List of arguments passed into the program
+	 * Main method to solve the problem.
+	 * @param args List of arguments passed into the program.
 	 */
 	public static void main(String[] args) {
 		//Declaration
@@ -170,12 +173,12 @@ public class Solver {
 		//Print solution
 		System.out.println(sum);
 	}
-
+	
 	/**
-	 *	Returns an array of characters given a triplet of characters to remove
-	 *	@param triplet 		An array of size 3 with three characters to removed from the inputed list of characters
-	 *	@param digits_in	A list of characters of digits that will be altered by removing the characters that appear in the triplet
-	 *	@return The modified list of digits as an array of characters
+	 * Remove the characters that appear in the triplet from the list of digits.
+	 * @param triplet      A triplet of three characters to be removed from digits_in.
+	 * @param digits_in    An array of characters to be altered.
+	 * @return An array of the characters of digits_in without the characters that appear in triplet.
 	 */
 	private static char[] getDigits(char[] triplet, char[] digits_in) {
 		char[] digits_out = {};
@@ -196,13 +199,13 @@ public class Solver {
 		return(digits_out);
 	}
 
-	/**
-	 *	Creates a list of all triplets given the first two entries and a list to be the third entry.
-	 *	@param a 	A character to be the first entry in each triplet
-	 *	@param b 	A character to be the second entry in the each triplet
-	 *	@param list A list of character which will be the last entry in each triplet
-	 *	@return An array of triplets of digits as characters
-	 */
+    /**
+     * Return a list of triplets based on the inputs.
+     * @param a     A character to be the first entry of the triplet.
+     * @param b     A character to be the second entry of the triplet.
+     * @param list  A list of characters to be the third entry in each list.
+     * @return An array of triplets of size three with characters.
+     */
 	private static char[][] getTriplets(char a, char b, char[] list) {
 		int n = list.length;
 		char[][] triplets = new char[n][3];
@@ -215,9 +218,9 @@ public class Solver {
 	}
 
 	/**
-	 *	Creates a list of all possible triplets for the given list.
-	 *	@param	list 	A list of characters.
-	 *	@return	An array of all triplets possible for the given list
+	 * Creates a list of all possible triplets for the given list.
+	 * @param list A list of characters.
+	 * @return An array of all triplets possible for the given list.
 	 */
 	private static char[][] getTriplets(char[] list) {
 		//Determine how many triplets there will be
@@ -244,9 +247,9 @@ public class Solver {
 	}
 
 	/**
-	 *	Find the factorial of a number
-	 *	@param	x	An integer to find the factorial
-	 *	@return	An integer that is a factorial of x
+	 * Find the factorial of a number.
+	 * @param x    An integer to find the factorial.
+	 * @return An integer that is a factorial of x.
 	 */
 	private static int factorial(int x) {
 		int product = 1;
@@ -259,9 +262,9 @@ public class Solver {
 	}
 
 	/**
-	 *	Convert a character to an int.
-	 *	@param	c 	A character to be converted into an integer
-	 *	@return	The integer conversion of character c
+	 * Convert a character to an int.
+	 * @param c    A character to be converted into an integer.
+	 * @return The integer conversion of character c.
 	 */
 	private static int toInt(char c) {
 		if (c == '0') { return(0); }
@@ -277,9 +280,9 @@ public class Solver {
 	}
 
 	/**
-	 *	Convert a string into a number
-	 *	@param	str 	A string representing a number
-	 *	@return	An int representation of the number passed in.
+	 * Convert a string into a number.
+	 * @param str  A string representing a number.
+	 * @return An int representation of the number passed in.
 	 */
 	private static int toNumber(String str) {
 		int number = 0;
