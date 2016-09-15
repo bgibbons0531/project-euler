@@ -199,13 +199,13 @@ public class Solver {
 		return(digits_out);
 	}
 
-    /**
-     * Return a list of triplets based on the inputs.
-     * @param a     A character to be the first entry of the triplet.
-     * @param b     A character to be the second entry of the triplet.
-     * @param list  A list of characters to be the third entry in each list.
-     * @return An array of triplets of size three with characters.
-     */
+	/**
+	 * Return a list of triplets based on the inputs.
+	 * @param a     A character to be the first entry of the triplet.
+	 * @param b     A character to be the second entry of the triplet.
+	 * @param list  A list of characters to be the third entry in each list.
+	 * @return An array of triplets of size three with characters.
+	 */
 	private static char[][] getTriplets(char a, char b, char[] list) {
 		int n = list.length;
 		char[][] triplets = new char[n][3];
